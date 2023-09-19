@@ -1,0 +1,862 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6EFF0404703A438261441BB2 /* Pods_BlissApp_BlissAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77D773F5AB7E25ED3C1CB376 /* Pods_BlissApp_BlissAppUITests.framework */; };
+		AA0A9802819266297B46F8B4 /* Pods_BlissAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F77783EC744F8F129A52D7D8 /* Pods_BlissAppTests.framework */; };
+		D039983C2AB232CE00E57CB3 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D039983A2AB232CE00E57CB3 /* CollectionViewCell.swift */; };
+		D039983D2AB232CE00E57CB3 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D039983B2AB232CE00E57CB3 /* CollectionViewCell.xib */; };
+		D054CD192AB61F7D0004621A /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D054CD182AB61F7D0004621A /* LoginScreen.swift */; };
+		D054CD1B2AB62E440004621A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D054CD1A2AB62E430004621A /* GoogleService-Info.plist */; };
+		D054CD1C2AB62E440004621A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D054CD1A2AB62E430004621A /* GoogleService-Info.plist */; };
+		D054CD1D2AB62E440004621A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D054CD1A2AB62E430004621A /* GoogleService-Info.plist */; };
+		D06789042AA4A97D00DD33AF /* UrunAciklamaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06789032AA4A97D00DD33AF /* UrunAciklamaView.swift */; };
+		D07D71D82AB751DA001EE4EC /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = D07D71D72AB751DA001EE4EC /* FirebaseAuth */; };
+		D07D71DA2AB751DA001EE4EC /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = D07D71D92AB751DA001EE4EC /* FirebaseFirestore */; };
+		D0A01BB32AB77B7B009EF157 /* HesapOlusturView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A01BB22AB77B7B009EF157 /* HesapOlusturView.swift */; };
+		D0C90A622AA107250067A444 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C90A612AA107250067A444 /* AppDelegate.swift */; };
+		D0C90A642AA107250067A444 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C90A632AA107250067A444 /* SceneDelegate.swift */; };
+		D0C90A662AA107250067A444 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C90A652AA107250067A444 /* ViewController.swift */; };
+		D0C90A692AA107250067A444 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0C90A672AA107250067A444 /* Main.storyboard */; };
+		D0C90A6B2AA107260067A444 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0C90A6A2AA107260067A444 /* Assets.xcassets */; };
+		D0C90A6E2AA107260067A444 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0C90A6C2AA107260067A444 /* LaunchScreen.storyboard */; };
+		D0C90A792AA107260067A444 /* BlissAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C90A782AA107260067A444 /* BlissAppTests.swift */; };
+		D0C90A832AA107260067A444 /* BlissAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C90A822AA107260067A444 /* BlissAppUITests.swift */; };
+		D0C90A852AA107260067A444 /* BlissAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C90A842AA107260067A444 /* BlissAppUITestsLaunchTests.swift */; };
+		D0C90A962AA115E50067A444 /* ShopScreenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C90A952AA115E50067A444 /* ShopScreenModel.swift */; };
+		D0C90A982AA115F20067A444 /* ShopScreenData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C90A972AA115F20067A444 /* ShopScreenData.swift */; };
+		D0C90A9A2AA1190F0067A444 /* ParsingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C90A992AA1190F0067A444 /* ParsingManager.swift */; };
+		FF0D64B51024FA11CD3F9E2E /* Pods_BlissApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4D225F73541AAF82D276C1C /* Pods_BlissApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D0C90A752AA107260067A444 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0C90A562AA107250067A444 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0C90A5D2AA107250067A444;
+			remoteInfo = BlissApp;
+		};
+		D0C90A7F2AA107260067A444 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0C90A562AA107250067A444 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0C90A5D2AA107250067A444;
+			remoteInfo = BlissApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4BC5B91BB9236E63E51EC94F /* Pods-BlissApp-BlissAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlissApp-BlissAppUITests.release.xcconfig"; path = "Target Support Files/Pods-BlissApp-BlissAppUITests/Pods-BlissApp-BlissAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		77D773F5AB7E25ED3C1CB376 /* Pods_BlissApp_BlissAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlissApp_BlissAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8150B1753AFF79E95A9C45C7 /* Pods-BlissApp-BlissAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlissApp-BlissAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-BlissApp-BlissAppUITests/Pods-BlissApp-BlissAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A19954D905347FE48872ED70 /* Pods-BlissAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlissAppTests.debug.xcconfig"; path = "Target Support Files/Pods-BlissAppTests/Pods-BlissAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C1FD264D7294F2B6AA84465E /* Pods-BlissAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlissAppTests.release.xcconfig"; path = "Target Support Files/Pods-BlissAppTests/Pods-BlissAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		C4D225F73541AAF82D276C1C /* Pods_BlissApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlissApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C51EB06FB7FD3C8BB7ECC028 /* Pods-BlissApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlissApp.debug.xcconfig"; path = "Target Support Files/Pods-BlissApp/Pods-BlissApp.debug.xcconfig"; sourceTree = "<group>"; };
+		D039983A2AB232CE00E57CB3 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		D039983B2AB232CE00E57CB3 /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		D054CD182AB61F7D0004621A /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
+		D054CD1A2AB62E430004621A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D06789032AA4A97D00DD33AF /* UrunAciklamaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UrunAciklamaView.swift; path = /Users/macbookair/Documents/BlissApp/BlissApp/UrunAciklamaView.swift; sourceTree = "<absolute>"; };
+		D0A01BB22AB77B7B009EF157 /* HesapOlusturView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HesapOlusturView.swift; sourceTree = "<group>"; };
+		D0C90A5E2AA107250067A444 /* BlissApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlissApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0C90A612AA107250067A444 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D0C90A632AA107250067A444 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D0C90A652AA107250067A444 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D0C90A682AA107250067A444 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D0C90A6A2AA107260067A444 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0C90A6D2AA107260067A444 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D0C90A6F2AA107260067A444 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0C90A742AA107260067A444 /* BlissAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlissAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0C90A782AA107260067A444 /* BlissAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlissAppTests.swift; sourceTree = "<group>"; };
+		D0C90A7E2AA107260067A444 /* BlissAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlissAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0C90A822AA107260067A444 /* BlissAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlissAppUITests.swift; sourceTree = "<group>"; };
+		D0C90A842AA107260067A444 /* BlissAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlissAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D0C90A952AA115E50067A444 /* ShopScreenModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ShopScreenModel.swift; path = /Users/macbookair/Documents/BlissApp/BlissApp/ShopScreenModel.swift; sourceTree = "<absolute>"; };
+		D0C90A972AA115F20067A444 /* ShopScreenData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ShopScreenData.swift; path = /Users/macbookair/Documents/BlissApp/BlissApp/ShopScreenData.swift; sourceTree = "<absolute>"; };
+		D0C90A992AA1190F0067A444 /* ParsingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ParsingManager.swift; path = /Users/macbookair/Documents/BlissApp/BlissApp/ParsingManager.swift; sourceTree = "<absolute>"; };
+		E8ABB810384942C7BFAC70BD /* Pods-BlissApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlissApp.release.xcconfig"; path = "Target Support Files/Pods-BlissApp/Pods-BlissApp.release.xcconfig"; sourceTree = "<group>"; };
+		F77783EC744F8F129A52D7D8 /* Pods_BlissAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlissAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0C90A5B2AA107250067A444 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF0D64B51024FA11CD3F9E2E /* Pods_BlissApp.framework in Frameworks */,
+				D07D71D82AB751DA001EE4EC /* FirebaseAuth in Frameworks */,
+				D07D71DA2AB751DA001EE4EC /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0C90A712AA107260067A444 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA0A9802819266297B46F8B4 /* Pods_BlissAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0C90A7B2AA107260067A444 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EFF0404703A438261441BB2 /* Pods_BlissApp_BlissAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7FDBB78BDF1DE5A6420966E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C4D225F73541AAF82D276C1C /* Pods_BlissApp.framework */,
+				77D773F5AB7E25ED3C1CB376 /* Pods_BlissApp_BlissAppUITests.framework */,
+				F77783EC744F8F129A52D7D8 /* Pods_BlissAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C06F453353FE557442F697BE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C51EB06FB7FD3C8BB7ECC028 /* Pods-BlissApp.debug.xcconfig */,
+				E8ABB810384942C7BFAC70BD /* Pods-BlissApp.release.xcconfig */,
+				8150B1753AFF79E95A9C45C7 /* Pods-BlissApp-BlissAppUITests.debug.xcconfig */,
+				4BC5B91BB9236E63E51EC94F /* Pods-BlissApp-BlissAppUITests.release.xcconfig */,
+				A19954D905347FE48872ED70 /* Pods-BlissAppTests.debug.xcconfig */,
+				C1FD264D7294F2B6AA84465E /* Pods-BlissAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D039983E2AB2347B00E57CB3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D0C90A652AA107250067A444 /* ViewController.swift */,
+				D06789032AA4A97D00DD33AF /* UrunAciklamaView.swift */,
+				D0A01BB22AB77B7B009EF157 /* HesapOlusturView.swift */,
+				D054CD182AB61F7D0004621A /* LoginScreen.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D039983F2AB2349200E57CB3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D0C90A952AA115E50067A444 /* ShopScreenModel.swift */,
+				D0C90A972AA115F20067A444 /* ShopScreenData.swift */,
+				D0C90A992AA1190F0067A444 /* ParsingManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D03998402AB234A100E57CB3 /* CollectionVievCells */ = {
+			isa = PBXGroup;
+			children = (
+				D039983A2AB232CE00E57CB3 /* CollectionViewCell.swift */,
+				D039983B2AB232CE00E57CB3 /* CollectionViewCell.xib */,
+			);
+			path = CollectionVievCells;
+			sourceTree = "<group>";
+		};
+		D0C90A552AA107250067A444 = {
+			isa = PBXGroup;
+			children = (
+				D0C90A602AA107250067A444 /* BlissApp */,
+				D0C90A772AA107260067A444 /* BlissAppTests */,
+				D0C90A812AA107260067A444 /* BlissAppUITests */,
+				D0C90A5F2AA107250067A444 /* Products */,
+				C06F453353FE557442F697BE /* Pods */,
+				7FDBB78BDF1DE5A6420966E0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D0C90A5F2AA107250067A444 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0C90A5E2AA107250067A444 /* BlissApp.app */,
+				D0C90A742AA107260067A444 /* BlissAppTests.xctest */,
+				D0C90A7E2AA107260067A444 /* BlissAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0C90A602AA107250067A444 /* BlissApp */ = {
+			isa = PBXGroup;
+			children = (
+				D039983E2AB2347B00E57CB3 /* View */,
+				D039983F2AB2349200E57CB3 /* Model */,
+				D03998402AB234A100E57CB3 /* CollectionVievCells */,
+				D0C90A612AA107250067A444 /* AppDelegate.swift */,
+				D0C90A6A2AA107260067A444 /* Assets.xcassets */,
+				D0C90A632AA107250067A444 /* SceneDelegate.swift */,
+				D0C90A6C2AA107260067A444 /* LaunchScreen.storyboard */,
+				D0C90A672AA107250067A444 /* Main.storyboard */,
+				D054CD1A2AB62E430004621A /* GoogleService-Info.plist */,
+				D0C90A6F2AA107260067A444 /* Info.plist */,
+			);
+			path = BlissApp;
+			sourceTree = "<group>";
+		};
+		D0C90A772AA107260067A444 /* BlissAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				D0C90A782AA107260067A444 /* BlissAppTests.swift */,
+			);
+			path = BlissAppTests;
+			sourceTree = "<group>";
+		};
+		D0C90A812AA107260067A444 /* BlissAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D0C90A822AA107260067A444 /* BlissAppUITests.swift */,
+				D0C90A842AA107260067A444 /* BlissAppUITestsLaunchTests.swift */,
+			);
+			path = BlissAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0C90A5D2AA107250067A444 /* BlissApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0C90A882AA107260067A444 /* Build configuration list for PBXNativeTarget "BlissApp" */;
+			buildPhases = (
+				14BCCBE6B15FD860C2A9F6AA /* [CP] Check Pods Manifest.lock */,
+				D0C90A5A2AA107250067A444 /* Sources */,
+				D0C90A5B2AA107250067A444 /* Frameworks */,
+				D0C90A5C2AA107250067A444 /* Resources */,
+				1EB59911B7F7A0446435EEB9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlissApp;
+			packageProductDependencies = (
+				D07D71D72AB751DA001EE4EC /* FirebaseAuth */,
+				D07D71D92AB751DA001EE4EC /* FirebaseFirestore */,
+			);
+			productName = BlissApp;
+			productReference = D0C90A5E2AA107250067A444 /* BlissApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D0C90A732AA107260067A444 /* BlissAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0C90A8B2AA107260067A444 /* Build configuration list for PBXNativeTarget "BlissAppTests" */;
+			buildPhases = (
+				E70C19D0885544A7D9694E77 /* [CP] Check Pods Manifest.lock */,
+				D0C90A702AA107260067A444 /* Sources */,
+				D0C90A712AA107260067A444 /* Frameworks */,
+				D0C90A722AA107260067A444 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0C90A762AA107260067A444 /* PBXTargetDependency */,
+			);
+			name = BlissAppTests;
+			productName = BlissAppTests;
+			productReference = D0C90A742AA107260067A444 /* BlissAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D0C90A7D2AA107260067A444 /* BlissAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0C90A8E2AA107260067A444 /* Build configuration list for PBXNativeTarget "BlissAppUITests" */;
+			buildPhases = (
+				9A960D9B30D3E3282C8A4D7E /* [CP] Check Pods Manifest.lock */,
+				D0C90A7A2AA107260067A444 /* Sources */,
+				D0C90A7B2AA107260067A444 /* Frameworks */,
+				D0C90A7C2AA107260067A444 /* Resources */,
+				AF1598C7696C45DD41D2FB52 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0C90A802AA107260067A444 /* PBXTargetDependency */,
+			);
+			name = BlissAppUITests;
+			productName = BlissAppUITests;
+			productReference = D0C90A7E2AA107260067A444 /* BlissAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0C90A562AA107250067A444 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					D0C90A5D2AA107250067A444 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					D0C90A732AA107260067A444 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = D0C90A5D2AA107250067A444;
+					};
+					D0C90A7D2AA107260067A444 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = D0C90A5D2AA107250067A444;
+					};
+				};
+			};
+			buildConfigurationList = D0C90A592AA107250067A444 /* Build configuration list for PBXProject "BlissApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0C90A552AA107250067A444;
+			packageReferences = (
+				D07D71D62AB751DA001EE4EC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = D0C90A5F2AA107250067A444 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0C90A5D2AA107250067A444 /* BlissApp */,
+				D0C90A732AA107260067A444 /* BlissAppTests */,
+				D0C90A7D2AA107260067A444 /* BlissAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0C90A5C2AA107250067A444 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0C90A6E2AA107260067A444 /* LaunchScreen.storyboard in Resources */,
+				D0C90A6B2AA107260067A444 /* Assets.xcassets in Resources */,
+				D054CD1B2AB62E440004621A /* GoogleService-Info.plist in Resources */,
+				D039983D2AB232CE00E57CB3 /* CollectionViewCell.xib in Resources */,
+				D0C90A692AA107250067A444 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0C90A722AA107260067A444 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D054CD1C2AB62E440004621A /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0C90A7C2AA107260067A444 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D054CD1D2AB62E440004621A /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		14BCCBE6B15FD860C2A9F6AA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BlissApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1EB59911B7F7A0446435EEB9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BlissApp/Pods-BlissApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BlissApp/Pods-BlissApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BlissApp/Pods-BlissApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A960D9B30D3E3282C8A4D7E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BlissApp-BlissAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF1598C7696C45DD41D2FB52 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BlissApp-BlissAppUITests/Pods-BlissApp-BlissAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BlissApp-BlissAppUITests/Pods-BlissApp-BlissAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BlissApp-BlissAppUITests/Pods-BlissApp-BlissAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E70C19D0885544A7D9694E77 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BlissAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0C90A5A2AA107250067A444 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0C90A662AA107250067A444 /* ViewController.swift in Sources */,
+				D0C90A962AA115E50067A444 /* ShopScreenModel.swift in Sources */,
+				D054CD192AB61F7D0004621A /* LoginScreen.swift in Sources */,
+				D039983C2AB232CE00E57CB3 /* CollectionViewCell.swift in Sources */,
+				D0C90A622AA107250067A444 /* AppDelegate.swift in Sources */,
+				D0A01BB32AB77B7B009EF157 /* HesapOlusturView.swift in Sources */,
+				D0C90A9A2AA1190F0067A444 /* ParsingManager.swift in Sources */,
+				D06789042AA4A97D00DD33AF /* UrunAciklamaView.swift in Sources */,
+				D0C90A642AA107250067A444 /* SceneDelegate.swift in Sources */,
+				D0C90A982AA115F20067A444 /* ShopScreenData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0C90A702AA107260067A444 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0C90A792AA107260067A444 /* BlissAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0C90A7A2AA107260067A444 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0C90A852AA107260067A444 /* BlissAppUITestsLaunchTests.swift in Sources */,
+				D0C90A832AA107260067A444 /* BlissAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D0C90A762AA107260067A444 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0C90A5D2AA107250067A444 /* BlissApp */;
+			targetProxy = D0C90A752AA107260067A444 /* PBXContainerItemProxy */;
+		};
+		D0C90A802AA107260067A444 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0C90A5D2AA107250067A444 /* BlissApp */;
+			targetProxy = D0C90A7F2AA107260067A444 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D0C90A672AA107250067A444 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0C90A682AA107250067A444 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D0C90A6C2AA107260067A444 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0C90A6D2AA107260067A444 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0C90A862AA107260067A444 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D0C90A872AA107260067A444 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0C90A892AA107260067A444 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C51EB06FB7FD3C8BB7ECC028 /* Pods-BlissApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BlissApp/BlissApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5MLS7NSP5K;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BlissApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SwiftUI.BlissApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D0C90A8A2AA107260067A444 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8ABB810384942C7BFAC70BD /* Pods-BlissApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BlissApp/BlissApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5MLS7NSP5K;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BlissApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SwiftUI.BlissApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D0C90A8C2AA107260067A444 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A19954D905347FE48872ED70 /* Pods-BlissAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5MLS7NSP5K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SwiftUI.BlissAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlissApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BlissApp";
+			};
+			name = Debug;
+		};
+		D0C90A8D2AA107260067A444 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1FD264D7294F2B6AA84465E /* Pods-BlissAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5MLS7NSP5K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SwiftUI.BlissAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlissApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BlissApp";
+			};
+			name = Release;
+		};
+		D0C90A8F2AA107260067A444 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8150B1753AFF79E95A9C45C7 /* Pods-BlissApp-BlissAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5MLS7NSP5K;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SwiftUI.BlissAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BlissApp;
+			};
+			name = Debug;
+		};
+		D0C90A902AA107260067A444 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BC5B91BB9236E63E51EC94F /* Pods-BlissApp-BlissAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5MLS7NSP5K;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SwiftUI.BlissAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BlissApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0C90A592AA107250067A444 /* Build configuration list for PBXProject "BlissApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0C90A862AA107260067A444 /* Debug */,
+				D0C90A872AA107260067A444 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0C90A882AA107260067A444 /* Build configuration list for PBXNativeTarget "BlissApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0C90A892AA107260067A444 /* Debug */,
+				D0C90A8A2AA107260067A444 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0C90A8B2AA107260067A444 /* Build configuration list for PBXNativeTarget "BlissAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0C90A8C2AA107260067A444 /* Debug */,
+				D0C90A8D2AA107260067A444 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0C90A8E2AA107260067A444 /* Build configuration list for PBXNativeTarget "BlissAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0C90A8F2AA107260067A444 /* Debug */,
+				D0C90A902AA107260067A444 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D07D71D62AB751DA001EE4EC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D07D71D72AB751DA001EE4EC /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D07D71D62AB751DA001EE4EC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		D07D71D92AB751DA001EE4EC /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D07D71D62AB751DA001EE4EC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = D0C90A562AA107250067A444 /* Project object */;
+}
