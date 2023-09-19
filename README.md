@@ -2,8 +2,13 @@
 BlissApp, kullanıcıların alışveriş deneyimini dönüştüren bir mobil uygulamadır. Modern ve kullanıcı dostu arayüzü ile alışveriş yapmayı daha kolay ve keyifli hale getirir. BlissApp, geniş ürün yelpazesiyle herkesin ihtiyaçlarına uygun ürünleri sunar. Ayrıca, uygulama içi arama özelliği sayesinde istediğiniz ürünleri hızlıca bulmanıza yardımcı olur.
 
 ## Uygulama Özellikleri
-![Ana Sayfa](https://github.com/YourUsername/ShoppingApp/assets/home-screen.png)
-![Ürün Detay](https://github.com/YourUsername/ShoppingApp/assets/product-detail.png)
+![Welcome](https://github.com/SevvalAtes54/BlissApp/assets/116071942/a4b8ae0c-fa97-462f-9925-3d6648b221ce)
+![Kaydolma](https://github.com/SevvalAtes54/BlissApp/assets/116071942/987fb024-abbc-48b4-8a3b-b9077c02677b)
+![Sihir](https://github.com/SevvalAtes54/BlissApp/assets/116071942/25cdb788-4fd8-40c6-bfbe-8c78cb664fa2)
+![Ana Sayfa](https://github.com/SevvalAtes54/BlissApp/assets/116071942/153c38d5-9405-464e-8376-eadd19932c77)
+![Aratma](https://github.com/SevvalAtes54/BlissApp/assets/116071942/28cc7af3-ca4e-4a82-9756-68b3965ade0a)
+![Ozellikler](https://github.com/SevvalAtes54/BlissApp/assets/116071942/4c65cfe3-af18-415f-a8de-f27a95530209)
+
 
 ### Temel Özellikler
 
